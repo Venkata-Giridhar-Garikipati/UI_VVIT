@@ -7,49 +7,57 @@ const departments = [
     name: 'Computer Science & Engineering',
     icon: Monitor,
     description: 'Focus on software development, algorithms, and computer systems.',
-    specializations: ['AI & ML', 'Cybersecurity', 'Full Stack Development']
+    specializations: ['AI & ML', 'Cybersecurity', 'Full Stack Development'],
+    link: '/departments/cse'
   },
   {
     name: 'AI & Machine Learning',
     icon: Code,
     description: 'Specialized program in artificial intelligence and machine learning applications.',
-    specializations: ['Deep Learning', 'Computer Vision', 'Natural Language Processing']
+    specializations: ['Deep Learning', 'Computer Vision', 'Natural Language Processing'],
+    link: '/departments/csm'
   },
   {
     name: 'AI & Data Science',
     icon: Database,
-    description: 'Comprehensive study of data analytics and AI applications.',
-    specializations: ['Big Data Analytics', 'Predictive Modeling', 'Data Visualization']
+    description: 'Study data analytics and artificial intelligence applications.',
+    specializations: ['Big Data Analytics', 'Predictive Modeling', 'Data Visualization'],
+    link: '/departments/aids'
   },
   {
     name: 'Electronics & Communication',
     icon: Radio,
     description: 'Study of electronic systems and communication technologies.',
-    specializations: ['VLSI Design', 'Embedded Systems', 'Communication Systems']
+    specializations: ['VLSI Design', 'Embedded Systems', 'Communication Systems'],
+    link: '/departments/ece'
   },
   {
     name: 'Electrical & Electronics',
     icon: Zap,
     description: 'Focus on electrical systems and power electronics.',
-    specializations: ['Power Systems', 'Control Systems', 'Electric Drives']
+    specializations: ['Power Systems', 'Control Systems', 'Electric Drives'],
+    link: '/departments/eee'
   },
   {
     name: 'Information Technology',
     icon: Cpu,
     description: 'Study of information systems and technology management.',
-    specializations: ['Cloud Computing', 'IoT', 'Web Technologies']
+    specializations: ['Cloud Computing', 'IoT', 'Web Technologies'],
+    link: '/departments/it'
   },
   {
     name: 'Mechanical Engineering',
     icon: Cog,
     description: 'Study of mechanical systems and manufacturing processes.',
-    specializations: ['CAD/CAM', 'Thermal Engineering', 'Manufacturing Technology']
+    specializations: ['CAD/CAM', 'Thermal Engineering', 'Manufacturing Technology'],
+    link: '/departments/mech'
   },
   {
     name: 'Civil Engineering',
     icon: BookOpen,
     description: 'Focus on structural design and construction management.',
-    specializations: ['Structural Engineering', 'Transportation', 'Environmental Engineering']
+    specializations: ['Structural Engineering', 'Transportation', 'Environmental Engineering'],
+    link: '/departments/civil'
   }
 ];
 
@@ -98,7 +106,10 @@ const Academics = () => {
                 </div>
               </div>
               <div className="px-6 py-4 bg-gradient-to-r from-orange-50 to-red-50">
-                <a href="#" className="text-orange-600 hover:text-red-600 font-medium transition-colors duration-200">
+                <a 
+                  href={dept.link} 
+                  className="text-orange-600 hover:text-red-600 font-medium transition-colors duration-200"
+                >
                   Learn more →
                 </a>
               </div>

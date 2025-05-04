@@ -61,7 +61,22 @@ const CSE = () => {
   return (
     <div className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
+        {/* Header with background image */}
+        <div className="relative h-64 rounded-xl overflow-hidden mb-8">
+          <img 
+            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+            alt="Computer Science Engineering" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <div className="text-center text-white">
+              <h1 className="text-4xl font-bold">Department of Computer Science & Engineering</h1>
+              <p className="mt-2 text-xl">Nurturing Innovation and Excellence in Computing</p>
+            </div>
+          </div>
+        </div>
+
+        {/* <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
@@ -69,7 +84,7 @@ const CSE = () => {
         >
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl">Department of Computer Science & Engineering</h1>
           <p className="mt-4 text-xl text-gray-500">Nurturing Innovation and Excellence in Computing</p>
-        </motion.div>
+        </motion.div> */}
 
         {/* Navigation Tabs */}
         <div className="mt-12 flex flex-wrap justify-center gap-4">

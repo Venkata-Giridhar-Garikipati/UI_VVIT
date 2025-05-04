@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Target, History } from 'lucide-react';
-
+import aboutus from '../assets/aboutus.png';
 const About = () => {
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
@@ -64,7 +64,7 @@ const About = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                 <div className="relative overflow-hidden rounded-lg">
                   <img
-                    src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                    src={aboutus}
                     alt="Campus"
                     className="w-full h-64 object-cover transform hover:scale-110 transition-transform duration-500"
                   />

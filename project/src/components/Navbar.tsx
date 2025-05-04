@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Menu, X, GraduationCap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import vvitLogo from '../assets/VVIT_logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,12 +33,19 @@ const Navbar = () => {
           >
             <Link to="/" className="flex items-center group">
               <motion.div
-                whileHover={{ rotate: 360 }}
-                transition={{ duration: 0.5 }}
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+                className="h-12 w-12 flex items-center justify-center"
               >
-                <GraduationCap className="h-8 w-8 transform group-hover:scale-110 transition-transform" />
+                <img 
+                  src={vvitLogo} 
+                  alt="VVIT Logo" 
+                  className="h-20 w-auto object-contain"
+                />
               </motion.div>
-              <span className="ml-2 text-xl font-bold">VVIT</span>
+              {/* <span className="ml-3 text-xl font-bold text-white group-hover:text-orange-300 transition-colors duration-200">
+                VVIT
+              </span> */}
             </Link>
           </motion.div>
           

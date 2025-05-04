@@ -182,7 +182,7 @@ const Contact = () => {
               <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">How to Reach Us</h2>
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.5189346034447!2d80.32373931486227!3d16.397999988675574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f0a2a7d81943%3A0x8ba5d78f65df94b8!2sVasireddy%20Venkatadri%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1645524245684!5m2!1sen!2sin"
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122502.60485470846!2d80.48944574204879!3d16.363444842956916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a5e29cfb7acd0c!2sVasireddy+Venkatadri+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1487605581738"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}

@@ -12,43 +12,43 @@ const courses = [
   {
     name: 'AI & Machine Learning',
     description: 'Explore artificial intelligence and machine learning technologies.',
-    path: '/departments/csml',
+    path: '/departments/csm',
     image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
   },
   {
     name: 'AI & Data Science',
     description: 'Study data analytics and artificial intelligence applications.',
-    path: '/departments/aids',
+    path: '/departments/cse',
     image: 'https://images.unsplash.com/photo-1527474305487-b87b222841cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
   },
   {
     name: 'Electronics & Communication',
     description: 'Master electronic systems and communication technologies.',
-    path: '/departments/ece',
+    path: '/departments/cse',
     image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
   },
   {
     name: 'Electrical & Electronics',
     description: 'Study electrical systems and power electronics.',
-    path: '/departments/eee',
+    path: '/departments/cse',
     image: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
   },
   {
     name: 'Information Technology',
     description: 'Focus on information systems and technology management.',
-    path: '/departments/it',
+    path: '/departments/cse',
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
   },
   {
     name: 'Mechanical Engineering',
     description: 'Learn mechanical design and manufacturing processes.',
-    path: '/departments/mech',
+    path: '/departments/cse',
     image: 'https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
   },
   {
     name: 'Civil Engineering',
     description: 'Study structural design and construction management.',
-    path: '/departments/civil',
+    path: '/departments/cse',
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
   },
 ];
